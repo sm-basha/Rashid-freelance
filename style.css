@@ -590,9 +590,9 @@ footer {
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
-
   background-color: #222;
 }
+#footer span a{color: #999;}
 
 .contact-wrap h1 {
   color: #ff7c62;
