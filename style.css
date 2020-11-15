@@ -37,9 +37,11 @@ nav.black {
 
 .carousel-caption-box {
   bottom: 25%;
-  width: auto;
+  width: 100%;
+  left: 0;
+  right: 0;
   background-color: rgba(0, 0, 0, 0.4);
-  border-radius: 3rem;
+  border-radius: 2rem;
   text-align: center;
 
   vertical-align: middle;
@@ -520,7 +522,7 @@ textarea {
   position: relative;
   z-index: 2;
   font-size: 18px;
-  color: #333;
+  color: #f3f3f3;
 }
 
 .contact-form .input-block .form-control:focus label {
@@ -586,7 +588,7 @@ footer {
   padding: 15px;
   background: url(images/bg-contact-shape.png);
   background-position: center;
-  background-repeat: repeat;
+  background-repeat: no-repeat;
   background-attachment: fixed;
   background-color: #222;
 }
