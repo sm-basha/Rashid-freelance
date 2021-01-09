@@ -411,7 +411,9 @@
         <div class="">
           <div class="input-block">
             <label for="">Phone *</label>
-            <input name="phone" type="tel" class="form-control" id="phone" required="">
+            <input name="phone" type="tel" maxlength="10" pattern="[6-9]{1}[0-9]{9}"
+              title="Please enter a Valid Mobile number." id="phone" class="form-control" placeholder="Mobile number"
+              required="">
           </div>
         </div>
 
