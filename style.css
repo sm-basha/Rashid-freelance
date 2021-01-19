@@ -179,13 +179,18 @@ h4:hover {
 }
 
 .vbox-container img {
-  height: 70vh !important ;
+  height: 50vh !important ;
   width: auto;
 }
 .vbox-next, .vbox-prev{display: block !important;}
 
 .vbox-next {
   right: 35px !important;
+}
+.vbox-title {
+  font-size: 20px !important;
+  background-color: rgb(88 88 96) !important;
+  color: #fff !important;
 }
 
 /* .container__image */
