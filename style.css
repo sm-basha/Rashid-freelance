@@ -206,7 +206,6 @@ h4:hover {
   margin: auto;
   /* /* background: inherit; */
   background-position: bottom;
-  */
   /* filter: blur(40px) saturate(0%); */
   transform: scaleX(0.4);
   /* transition: ease-in-out 0.4s; */
@@ -216,9 +215,7 @@ h4:hover {
   z-index: -1;
 }
 
-.container__image .container__location {
-  /* transition-delay: 0.15s; */
-}
+
 
 .container__image:hover {
   border-radius: 0;
@@ -629,7 +626,7 @@ footer span {
   position: relative;
   -ms-touch-action: pan-Y;
   touch-action: manipulation;
-  -moz-backface-visibility: hidden;
+  /* -moz-backface-visibility: hidden; */
   /* fix firefox animation glitch */
 }
 
