@@ -178,7 +178,15 @@ h4:hover {
   /* background: #F3F3F3; */
 }
 
+.vbox-container img {
+  height: 70vh !important ;
+  width: auto;
+}
+.vbox-next, .vbox-prev{display: block !important;}
 
+.vbox-next {
+  right: 35px !important;
+}
 
 /* .container__image */
 
@@ -206,6 +214,7 @@ h4:hover {
   margin: auto;
   /* /* background: inherit; */
   background-position: bottom;
+  
   /* filter: blur(40px) saturate(0%); */
   transform: scaleX(0.4);
   /* transition: ease-in-out 0.4s; */
@@ -626,7 +635,7 @@ footer span {
   position: relative;
   -ms-touch-action: pan-Y;
   touch-action: manipulation;
-  /* -moz-backface-visibility: hidden; */
+  -moz-backface-visibility: hidden;
   /* fix firefox animation glitch */
 }
 
