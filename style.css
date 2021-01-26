@@ -541,6 +541,50 @@ footer {
 
 /* FORM- END */
 
+/* SIDE BRAND */
+
+.soc {
+  color: #000;
+  font-weight: bolder;
+  position: fixed;
+  top: 50%;
+  right: -55px;
+  /* -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%); */
+  z-index: 10;
+  border-radius: 15px 15px 0 0;
+  /* background-color: rgba(56,56,56,.66); */
+}
+.soc li {
+  list-style: none;
+}
+
+.soc a {
+  display: block;
+  text-align: center;
+  padding: 1px;
+  transition: all 0.3s ease;
+
+
+}
+/* .messenger {
+  background: #00c6ff ;
+  color: white;
+}
+.whatsapp {
+  background: #4FCE5D;
+  color: #4FCE5D;
+  font-size: 10px;
+} */
+.verticalText {
+  transform: rotate(-90deg);
+  padding: 20px;
+  margin: 20px;
+}
+
+/* end- SIDE BRAND */
+
 
 
 
