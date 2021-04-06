@@ -664,12 +664,17 @@ footer span {
 
 .owl-nav {
   text-align: center;
-  font-size: 3rem;
+  font-size: 1.8rem;
+  margin: 2rem;
 }
 
 .owl-nav span {
-  padding: 0 10px;
-}
+  background-color: #000;
+  color: #fff;
+  border-radius: 50%;
+  border: none;
+  padding: 5px 1.5rem 12px;
+  margin: 10px;}
 
 .owl-carousel {
   display: none;
