@@ -188,9 +188,15 @@ h4:hover {
   right: 35px !important;
 }
 .vbox-title {
-  font-size: 20px !important;
+  height: 100px !important;
+  line-height: 85px !important;
+  font-size: 25px !important;
+  font-style: italic;
   background-color: rgb(88 88 96) !important;
   color: #fff !important;
+}
+.vbox-close{
+  
 }
 
 /* .container__image */
