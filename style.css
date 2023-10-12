@@ -16,6 +16,7 @@ html {
 }
 
 .navbar {
+  top:10px;
   position: fixed;
   z-index: 10;
   width: 100%;
